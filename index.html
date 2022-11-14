@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Sign-up Form</title>
+</head>
+<body>
+  <div>
+    <img class="leaf" src="./assets/leaf.avif" alt="Green Leaf by Halie West">
+    <figcaption>Photo by Halie West on Unsplash</figcaption>
+    <div class="title">
+      <img class="logo" src="./assets/odin-lined.png" alt="Odin logo">
+      <h4>Odin</h4>
+    </div>
+  </div>
+  <div class="content">
+    <p>This is not a real online service! 
+      You know you need something like this in your
+      life to help you realize your deepest dreams.</p>
+    <p>Sign up <em>now</em> to get started.</p>
+    <p>You <em>know</em> you want to.</p>
+    <form action="POST">
+      <fieldset>
+        <legend>Let's do this!</legend>
+        <div class="input-set">
+          <label for="fname">First name</label>
+          <input type="text" for="fname">
+        </div>
+        <div class="input-set">
+          <label for="lname">Last name</label>
+          <input type="text" for="lname">
+        </div>
+        <div class="input-set">
+          <label for="email">Email</label>
+          <input type="text" for="email">  
+        </div>
+        <div class="input-set">
+          <label for="phone">Phone number</label>
+          <input type="text" for="phone">  
+        </div>
+        <div class="input-set">
+          <label for="pword">Password</label>
+          <input type="text" for="pword">  
+        </div>
+        <div class="input-set">
+          <label for="pwconfirm">Confirm password</label>
+          <input type="text" for="pwconfirm">  
+        </div>
+      </fieldset>
+      <button type="submit">Create Account</button>
+      <p>Already have an account? <a href="">Log in</a></p>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Norse-Bold;
+  src: url(./assets/Norse-Bold.otf)
+}
+
+body {
+  display: flex;
+  height: 625px;
+  margin: 0;
+  padding: 0;
+  background-color: #E5E7EB;
+}
+
+.title {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin-top: -500px;
+  width: 450px;
+  height: 200px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h4 {
+  left: 0;
+  color: white;
+  font-family: Norse-Bold;
+  font-size: 120px;
+  height: 130px;
+  margin: 0;
+}
+
+figcaption {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 50px;
+  color: white;
+}
+
+.logo {
+  height: 150px;
+  width: auto;
+}
+
+.leaf {
+  position: relative;
+  min-height: 100%;
+  width: 450px;
+  left: 0px;
+}
+
+.content {
+  padding: 40px;
+  padding-right: 200px;
+  width: 100%;
+}
+
+button {
+  background-color: #596D48;
+  padding: 10px;
+  width: 200px;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+input {
+  border: 1px solid #E5E7EB;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+}
+
+input:focus {
+  border: 1px solid blue;
+}
+
+fieldset {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  border: 0;
+  margin: 10px;
+  padding-left: 0px;
+  background-color: white;
+}
+
+legend {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+a {
+  color: #596D48;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.input-set {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
